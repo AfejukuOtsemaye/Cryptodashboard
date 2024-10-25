@@ -1,0 +1,75 @@
+.home{
+    padding: 0 10px;
+    text-align: center;
+}
+.hero{
+    max-width: 600px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.hero h1{
+    font-size: max(4vw, 36px);
+}
+.hero p{
+    width: 75%;
+    color: #8181c0;
+    line-height: 1.5;
+}
+form{
+    padding: 8px;
+    width: 80%;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+form input{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.cryptoDisplay{
+   background-image: linear-gradient(to top, darkblue 100%, #fbc2 80%) ;
+   max-width: 800px;
+   margin: auto;
+   border-radius: 15px;
+}
+.cryptolayout{
+
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1.5fr;
+    padding: 15px 5px;
+    align-items: center;
+    border-bottom: 1px solid #3c3c3c;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.marketGap{
+    text-align: right;
+}
+.cryptolayout img{
+    width: 25px;
+    height: 25px;
+}
+.cryptolayout:last-child{
+    border-bottom: none;
+}
+.cryptolayout div{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+.cryptolayout .green{
+    color: #06d31a;
+    text-align: center;
+}
+.cryptolayout .red{
+    color: rgb(238, 5, 5);
+    text-align: center;
+}

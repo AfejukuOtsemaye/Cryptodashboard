@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..9007display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border;
+  font-family: "Outfit", "sans-serif";
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+.app{
+  color: white;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgb(6,6,66) 0%, rgb(14, 14, 88) 30%, rgb(27, 1, 27) 40%, rgb(2, 2, 44) 90%) ;
+}
+button{
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(6,6 ,66);
+  color: white;
+}
+button:hover{
+  background-color: #050583;
+  border: 1px solid whitesmoke;
+}
